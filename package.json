@@ -1,0 +1,27 @@
+{
+  "name": "breakpoints-json",
+  "version": "1.0.0",
+  "description": "Usefull breakpoints in json format",
+  "main": "breakpoints.json",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sevenx-io/breakpoints-json.git"
+  },
+  "keywords": [
+    "breakpoints",
+    "media",
+    "queries",
+    "screen",
+    "sizes",
+    "resolution"
+  ],
+  "author": "m.melnychenko <mykola.melnichenko@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sevenx-io/breakpoints-json/issues"
+  },
+  "homepage": "https://github.com/sevenx-io/breakpoints-json#readme"
+}
