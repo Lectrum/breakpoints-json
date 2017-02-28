@@ -1,22 +1,24 @@
 {
-    "type": "object",
+    "type": "object" ,
     "properties": {
-        "type": "object",
-        "properties": {
-            "name": {
-                "type": "string",
-                "regexp": "/[a-zA-Z]/"
-            },
-            "min": {
-                "type": "string",
-                "regexp": "/[0-9]{3,4}/"
-            },
-            "max": {
-                "type": "string",
-                "regexp": "/[0-9]{3,4}/"
+        "properties" : {
+            "type": "object" ,
+            "properties": {
+                "max" : {
+                    "type": "string",
+                    "pattern": "/[0-9]{3,4}/"
+                },
+                "min" : {
+                    "type": "string",
+                    "pattern": "/[0-9]{3,4}/"
+                },
+                "name" : {
+                    "type": "string",
+                    "pattern": "/[a-zA-Z]/"
+                }
             },
             "minProperties": 3,
-            "required": ["name", "min", "max"]
+            "required": ["name", "max", "min"]
         }
     }
 }

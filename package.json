@@ -4,7 +4,7 @@
   "description": "Usefull breakpoints in json format",
   "main": "breakpoints.json",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "validate-jsond breakpoints.json schema.json"
   },
   "repository": {
     "type": "git",
@@ -23,5 +23,8 @@
   "bugs": {
     "url": "https://github.com/sevenx-io/breakpoints-json/issues"
   },
-  "homepage": "https://github.com/sevenx-io/breakpoints-json#readme"
+  "homepage": "https://github.com/sevenx-io/breakpoints-json#readme",
+  "devDependencies": {
+    "jsond-validator": "^1.2.0"
+  }
 }
