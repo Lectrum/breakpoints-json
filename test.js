@@ -19,16 +19,22 @@ for (const breakpoint in views) {
             }
         }
     }
-}
 
-if (!wrongPropertyType.length) {
-    throw new SyntaxError(`${wrongPropertyType} should be an object`);
-}
+    if (!wrongPropertyType.length) {
+        console.log(`${wrongPropertyType} should be an object`);
+    } else {
+        console.log('PropertyType is OK');
+    }
 
-if (!wrongViewsType.length) {
-    throw new SyntaxError(`${wrongViewsType} in each breakpoints should be a string`);
-}
+    if (!wrongViewsType.length) {
+        console.log(`${wrongViewsType} in each breakpoints should be a string`);
+    } else {
+        console.log('Views Type OK');
+    }
 
-if (!loseRequiredProperty.length) {
-    throw new SyntaxError(`${loseRequiredProperty} should be in each breakpoints`);
+    if (!loseRequiredProperty.length) {
+        console.log(`${loseRequiredProperty} should be in each breakpoints`);
+    } else {
+        console.log('Required Properties is OK');
+    }
 }
