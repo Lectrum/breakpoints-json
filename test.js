@@ -21,14 +21,16 @@ for (const breakpoint in views) {
     }
 }
 
-wrongPropertyType.length ?
-    console.log(`${wrongPropertyType} should be a string`) :
+if (wrongPropertyType.length) {
+    throw TypeError(`${wrongPropertyType} should be a string`);
+} else {
     console.log('PropertyType is OK');
+}
 
-wrongViewsType.length ?
-    console.log(`${wrongViewsType} in each breakpoints should be an object`) :
-    console.log('Views Type OK');
-
-loseRequiredProperty.length ?
-    console.log(`You lose some of the required properties ${loseRequiredProperty}`) :
-    console.log('Required Properties is OK');
+// wrongViewsType.length ?
+//     throw TypeError(`${wrongViewsType} in each breakpoints should be an object`) :
+//     console.log('Views Type OK');
+//
+// loseRequiredProperty.length ?
+//     throw Error(`You lose some of the required properties ${loseRequiredProperty}`) :
+//     console.log('Required Properties is OK');
