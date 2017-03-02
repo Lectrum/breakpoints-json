@@ -9,12 +9,16 @@ There are presented most appropriate to modern devices breakpoints. It is lightw
 ## Usage
 
 For use this package you just need to import it from 'node_modules'.
+
 `var breakpoints = require('breakpoints-json');`
+
 or if you use ES6
+
 `import breakpoints from 'breakpoints-json';`
+
 If you use babel, imported JSON should automatic transformed to JavaScript object.
 
-## Changes
+## Customization
 
 Our breakpoints was diligently selected. But if you want change some of our proposed sizes, you can do it manually. Look to 
 
