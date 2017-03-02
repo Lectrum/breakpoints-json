@@ -18,14 +18,6 @@ or if you use ES6
 
 If you use babel, imported JSON should automatic transformed to JavaScript object.
 
-## Customization
-
-Our breakpoints was diligently selected. But if you want change some of our proposed sizes, you can do it manually. Look to 
-
-`node_modules/breakpoint-json/breakpoints.json`. 
-
-You can change min and max value, add or delete some of breakpoints. Be careful and look that your min and max values not crossing one to another.
-
 ## Test
 
 When you make any changes to `breakpoints-json` please make sure that you do everything right. For this you can run `test.js`. 
