@@ -4,7 +4,7 @@
   "description": "Usefull breakpoints in json format",
   "main": "breakpoints.json",
   "scripts": {
-    "test": "test.js"
+    "test": "node test.js"
   },
   "repository": {
     "type": "git",
