@@ -1,4 +1,4 @@
-const views = require('./breakpoints');
+const views = require('./index');
 
 const keys = ['name', 'min', 'max'];
 const wrongViewsType = [];
