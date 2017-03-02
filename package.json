@@ -1,6 +1,6 @@
 {
   "name": "breakpoints-json",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Usefull breakpoints in json format",
   "main": "breakpoints.json",
   "scripts": {
