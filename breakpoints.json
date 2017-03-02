@@ -1,17 +1,12 @@
 {
-    "phonePortrait": {
-        "name": "phonePortrait",
-        "min":  "320",
-        "max":  "414"
-    },
+    "phonePortrait": 455,
     "phoneLandscape": {
         "name": "phoneLandscape",
-        "min":  "415",
-        "max":  "667"
+        "min":  "415"
     },
     "tabletPortrait": {
         "name": "tabletPortrait",
-        "min":  "668",
+        "min":  668,
         "max":  "768"
     },
     "tabletLandscape": {

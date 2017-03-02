@@ -11,30 +11,24 @@ for (const breakpoint in views) {
     }
     for (const property in views[breakpoint]) {
         if (typeof views[breakpoint][property] !== "string") {
-            wrongPropertyType.push(views[breakpoint][property]);
+            wrongPropertyType.push(`${property} value in ${breakpoint}`);
         }
     }
     for (const item in keys) {
         if (views[breakpoint].hasOwnProperty(keys[item]) === false) {
-            loseRequiredProperty.push(`${keys[item]} in ${breakpoint}breakpoint`);
+            loseRequiredProperty.push(`${keys[item]} in ${breakpoint}`);
         }
     }
 }
 
-if (wrongPropertyType !== []) {
-    console.log(`${wrongPropertyType} should be a string`);
-} else {
+wrongPropertyType.length !== 0 ?
+    console.log(`${wrongPropertyType} should be a string`) :
     console.log('PropertyType is OK');
-}
 
-if (wrongViewsType !== []) {
-    console.log(`${wrongViewsType} in each breakpoints should be an object`);
-} else {
+wrongViewsType.length !== 0 ?
+    console.log(`${wrongViewsType} in each breakpoints should be an object`) :
     console.log('Views Type OK');
-}
 
-if (loseRequiredProperty !== []) {
-    console.log(`You lose some of the required properties ${loseRequiredProperty}`);
-} else {
+loseRequiredProperty.length !== 0 ?
+    console.log(`You lose some of the required properties ${loseRequiredProperty}`) :
     console.log('Required Properties is OK');
-}
