@@ -1,7 +1,7 @@
 {
   "name": "breakpoints-json",
   "version": "1.0.5",
-  "description": "Usefull breakpoints in json format",
+  "description": "Multipurpose, json-formated breakpoints",
   "main": "breakpoints.json",
   "scripts": {
     "test": "node test.js"
