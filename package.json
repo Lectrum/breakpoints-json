@@ -13,10 +13,11 @@
   "keywords": [
     "breakpoints",
     "media",
-    "queries",
+    "media-queries",
     "screen",
-    "sizes",
-    "resolution"
+    "screen-sizes",
+    "viewport",
+    "json"
   ],
   "author": "m.melnychenko <mykola.melnichenko@gmail.com>",
   "license": "MIT",

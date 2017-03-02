@@ -28,7 +28,7 @@ if (wrongPropertyType.length) {
 }
 
 if (wrongViewsType.length) {
-    throw TypeError(`${wrongViewsType} in each breakpoints should be an object`;
+    throw TypeError(`${wrongViewsType} in each breakpoints should be an object`);
 } else {
     console.log('Views Type OK');
 }
