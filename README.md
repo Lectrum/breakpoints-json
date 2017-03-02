@@ -21,7 +21,7 @@ If you use babel, imported JSON should automatic transformed to JavaScript objec
 For example you can check presence of some field in your breakpoints.
 
 ```
-for (const breakpoint in views) {
+for (const property in breakpoints) {
     // some logic
 }
 ```
