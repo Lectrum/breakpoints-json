@@ -27,10 +27,14 @@ if (wrongPropertyType.length) {
     console.log('PropertyType is OK');
 }
 
-// wrongViewsType.length ?
-//     throw TypeError(`${wrongViewsType} in each breakpoints should be an object`) :
-//     console.log('Views Type OK');
-//
-// loseRequiredProperty.length ?
-//     throw Error(`You lose some of the required properties ${loseRequiredProperty}`) :
-//     console.log('Required Properties is OK');
+if (wrongViewsType.length) {
+    throw TypeError(`${wrongViewsType} in each breakpoints should be an object`;
+} else {
+    console.log('Views Type OK');
+}
+
+if (loseRequiredProperty.length) {
+    throw Error(`You lose some of the required properties ${loseRequiredProperty}`);
+} else {
+    console.log('Required Properties is OK');
+}
