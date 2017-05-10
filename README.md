@@ -30,12 +30,4 @@ It might be useful for build some logic according to different devices.
 
 ## Test
 
-When you make any changes to `breakpoints-json` please make sure that you do everything right. For this you can run `test.js`. 
-
-Go to package directory
-
-`cd node_modules/breakpoints-json`
-
-and run test
-
-`npm test`
+If you want to help us to improve our package you should run test.js. And don`t forget to fork us on GitHub. It is a very good possibility to receive plus 100 to your karma.
