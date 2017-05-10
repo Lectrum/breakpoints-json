@@ -29,14 +29,18 @@ Here is simple example on native JavaScript. It shows how to find current breakp
     }
 ```
 
-It might be useful for build some logic according to different devices. Also it is great that you can easy work with this package in any applications, which are written on any programming language. For example, you can easy make conditional rendered component in React.js as on example below:
+This package is polymorphic. It can be used with native JS, any tool/library or any other programming language. It might be useful for build some logic according to different devices. For example, you can easy make conditional rendered component in React.js as on example below:
 
 ```
     const conditionalRender = () => {
         if (breakpoints.phonePortrait || breakpoints.phoneLandscape) {
-            return <Mobile />
-        } else {
-            return <Desktop />
+            return <AppMobile />
+        }
+        else if (breakpoints.tabletPortrait || breakpoints.tabletLandscape) {
+            return <AppTablet />
+        }
+        else {
+            return <AppDesktop />
         }
     }
 ```
