@@ -31,14 +31,6 @@ Here is simple example on native JavaScript. It shows how to find current breakp
     }
 ```
 
-
-
-```
-for (const property in breakpoints) {
-    // some logic
-}
-```
-
 It might be useful for build some logic according to different devices.
 
 ## Contributing
