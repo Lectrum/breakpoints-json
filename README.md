@@ -30,4 +30,4 @@ It might be useful for build some logic according to different devices.
 
 ## Contributing
 
-If you want contribute us to improve our package you should to fork us on GitHub. Don`t forget to run test.js for right implementation your improvements. And then send us PR. It is a very good possibility to receive plus 100 to your karma.
+If you want to suggest an improvement of our package fell free to fork this repo. In order to run tests execute the following in terminal: npm test. And then send us PR. It is a very good possibility to receive plus 100 to your karma and you'll help us a lot.
