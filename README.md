@@ -3,7 +3,8 @@
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
 There are presented most appropriate to modern devices breakpoints (look on the picture below). It is lightweight and have universal JSON format that make it useful in any projects with any programming language.
-![Devices](https://cloud.githubusercontent.com/assets/26002528/25902398/1e249918-35a2-11e7-9b73-5d7eedfc76cc.png)
+
+![breakpoints-json 3](https://cloud.githubusercontent.com/assets/26002528/25903209/71667874-35a4-11e7-84d3-e8c7e3259393.png)
 
 ## Installation
 
