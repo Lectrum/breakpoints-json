@@ -18,7 +18,20 @@ or if you don`t use ES6
 
 If you use babel, imported JSON should automatic transformed to JavaScript object.
 
-For example you can check presence of some field in your breakpoints.
+You can easy work with this package in any applications, which are written on any programming language.
+
+Here is simple example on native JavaScript. It shows how to find current breakpoint of your browser window:
+
+```
+    for (const key in breakpoints) {
+        if (window.innerWidth <= breakpoints[key].max && window.innerWidth >= breakpoints[key].min) {
+            console.log('This is your current window size: ', window.innerWidth);
+            console.log('This is your current breakpoint: ', breakpoints[key]);
+        }
+    }
+```
+
+
 
 ```
 for (const property in breakpoints) {
