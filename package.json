@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sevenx-io/breakpoints-json.git"
+    "url": "git@github.com:Lectrum/breakpoints-json.git"
   },
   "keywords": [
     "breakpoints",
@@ -19,10 +19,10 @@
     "viewport",
     "json"
   ],
-  "author": "m.melnychenko <mykola.melnichenko@gmail.com>",
+  "author": "m.melnychenko <m.melnychenko@lectrum.io>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/sevenx-io/breakpoints-json/issues"
+    "url": ""
   },
-  "homepage": "https://github.com/sevenx-io/breakpoints-json#readme"
+  "homepage": ""
 }
