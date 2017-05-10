@@ -4,7 +4,7 @@ There are presented most appropriate to modern devices breakpoints. It is lightw
 
 ## Installation
 
-`npm install breakpoints-json`
+`npm install -D breakpoints-json`
 
 ## Usage
 
