@@ -28,6 +28,6 @@ for (const property in breakpoints) {
 
 It might be useful for build some logic according to different devices.
 
-## Test
+## Contributing
 
-If you want to help us to improve our package you should run test.js. And don`t forget to fork us on GitHub. It is a very good possibility to receive plus 100 to your karma.
+If you want contribute us to improve our package you should to fork us on GitHub. Don`t forget to run test.js for right implementation your improvements. And then send us PR. It is a very good possibility to receive plus 100 to your karma.
