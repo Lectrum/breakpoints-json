@@ -22,7 +22,7 @@
   "author": "m.melnychenko <m.melnychenko@lectrum.io>",
   "license": "MIT",
   "bugs": {
-    "url": ""
+    "url": "https://github.com/Lectrum/breakpoints-json/issues"
   },
-  "homepage": ""
+  "homepage": "https://github.com/Lectrum/breakpoints-json/blob/master/README.md"
 }
