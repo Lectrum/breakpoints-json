@@ -47,4 +47,4 @@ This package is polymorphic. It can be used with native JS, any tool/library or 
 
 ## Contributing
 
-If you want to suggest an improvement of our package fell free to fork this repo. In order to run tests execute the following in terminal: npm test. And then send us PR. It is a very good possibility to receive plus 100 to your karma and you'll help us a lot.
+If you want to suggest an improvement of our package feel free to fork this repo. In order to run tests execute the following in terminal: npm test. And then send us PR. It is a very good possibility to receive plus 100 to your karma and you'll help us a lot.
