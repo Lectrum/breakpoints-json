@@ -18,8 +18,6 @@ or if you don`t use ES6
 
 If you use babel, imported JSON should automatic transformed to JavaScript object.
 
-You can easy work with this package in any applications, which are written on any programming language.
-
 Here is simple example on native JavaScript. It shows how to find current breakpoint of your browser window:
 
 ```
@@ -31,7 +29,17 @@ Here is simple example on native JavaScript. It shows how to find current breakp
     }
 ```
 
-It might be useful for build some logic according to different devices.
+It might be useful for build some logic according to different devices. You can easy work with this package in any applications, which are written on any programming language. For example, you can easy make conditional rendered component in React.js as on example below:
+
+```
+    const conditionalRender = () => {
+        if (breakpoints.phonePortrait || breakpoints.phoneLandscape) {
+            return <Mobile />
+        } else {
+            return <Desktop />
+        }
+    }
+```
 
 ## Contributing
 
