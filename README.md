@@ -29,7 +29,7 @@ Here is simple example on native JavaScript. It shows how to find current breakp
     }
 ```
 
-It might be useful for build some logic according to different devices. You can easy work with this package in any applications, which are written on any programming language. For example, you can easy make conditional rendered component in React.js as on example below:
+It might be useful for build some logic according to different devices. Also it is great that you can easy work with this package in any applications, which are written on any programming language. For example, you can easy make conditional rendered component in React.js as on example below:
 
 ```
     const conditionalRender = () => {
