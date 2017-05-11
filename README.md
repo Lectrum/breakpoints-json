@@ -26,20 +26,20 @@ Here is simple example on native JavaScript. It is a function `check()`, which r
 
 ```
     const check = (size) => {
-                let result = false;
+          let result = false;
 
-                for (const key in screenSizes) {
-                    let item = screenSizes[key];
-                    let max = item.max;
-                    let min = item.min;
+          for (const key in screenSizes) {
+               let item = screenSizes[key];
+               let max = item.max;
+               let min = item.min;
 
-                    if (size <= max && size >= min) {
-                        result = item;
-                    }
-                }
+               if (size <= max && size >= min) {
+                    result = item;
+               }
+          }
 
-                return result;
-            };
+          return result;
+    };
 ```
 
 This package is polymorphic. It can be used with native JS, any tool/library or any other programming language. It might be useful for build some logic according to different devices. For example, you can easy make conditional rendered component (one Component for mobile and another for Desktop and Tablet devices) in React.js as on example below. We will use our function check() for this task:
