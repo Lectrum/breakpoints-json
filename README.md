@@ -25,38 +25,38 @@ If you use babel, imported JSON should automatic transformed to JavaScript objec
 Here is simple example on native JavaScript. It is a function `check()`, which returned to you breakpoint (type Object) that corresponds to your current window size.
 
 ```
-    const check = (size) => {
-          let result = false;
+const check = (size) => {
+    let result = false;
 
-          for (const key in screenSizes) {
-               let item = screenSizes[key];
-               let max = item.max;
-               let min = item.min;
+    for (const key in screenSizes) {
+        let item = screenSizes[key];
+        let max = item.max;
+        let min = item.min;
 
-               if (size <= max && size >= min) {
-                    result = item;
-               }
-          }
+        if (size <= max && size >= min) {
+        result = item;
+        }
+    }
 
-          return result;
-    };
+    return result;
+};
 ```
 
 This package is polymorphic. It can be used with native JS, any tool/library or any other programming language. It might be useful for build some logic according to different devices. For example, you can easy make conditional rendered component (one Component for mobile and another for Desktop and Tablet devices) in React.js as on example below. We will use our function check() for this task:
 
 ```
-    const current = window.innerWidth;
-    const name = check(current).name;
-    const phonePortrait = breakpoints.phonePortrait.name;
-    const phoneLandscape = breakpoints.phoneLandscape.name;
+const current = window.innerWidth;
+const name = check(current).name;
+const phonePortrait = breakpoints.phonePortrait.name;
+const phoneLandscape = breakpoints.phoneLandscape.name;
 
-    const conditionalRender = () => {
-        (name === phonePortrait || name === phoneLandscape)
-        ?
-            <AppMobile />
-        :
-            <AppDesktop />
-    }
+const conditionalRender = () => {
+    return (name === phonePortrait || name === phoneLandscape)
+    ?
+        <AppMobile />
+    :
+        <AppDesktop />;
+}
 ```
 
 ## Contributing
