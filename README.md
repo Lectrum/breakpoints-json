@@ -25,7 +25,7 @@ To use this package you just need to import it from 'node_modules':
 
 or if you don`t use ES6:
 
-`var breakpoints = require('breakpoints-json');`
+`var breakpoints = require('breakpoints-json');`.
 
 If you use babel, imported JSON should automatic transformed to JavaScript object.
 
@@ -73,4 +73,8 @@ const conditionalRender = () => {
 
 ## Contributing
 
-If you want to suggest an improvement of our package feels free to fork this repo. To run tests execute the following in a terminal: npm test. And then send us PR. It is an excellent possibility to receive plus 100 to your karma, and you'll help us a lot.
+If you want to suggest an improvement to our package feel free to fork this repo. To run tests execute the following in a terminal:
+
+`npm test`.
+
+And then send us PR. It is an excellent possibility to receive plus 100 to your karma, and you'll help us a lot.
