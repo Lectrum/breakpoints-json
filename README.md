@@ -1,9 +1,10 @@
 # breakpoints-json
 
 [![npm](https://img.shields.io/npm/v/npm.svg?style=flat-square)](https://www.npmjs.com/package/breakpoints-json)
+[![Version](https://img.shields.io/badge/version-1.0.13-blue.svg?style=flat-square)]()
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 [![TeamCity CodeBetter](https://img.shields.io/teamcity/codebetter/bt428.svg?style=flat-square)]()
-[![Gitter Chat](https://img.shields.io/badge/chat-on%20gitter-blue.svg)]()
+[![Gitter Chat](https://img.shields.io/badge/chat-on%20gitter-blue.svg?style=flat-square)]()
 [![Twitter Follow](https://img.shields.io/twitter/follow/espadrine.svg?style=social&label=Follow)](https://twitter.com/lectrumhq)
 
 There are presented most appropriate to modern devices breakpoints (look on the picture below). It is lightweight and have universal JSON format that make it useful in any projects with any programming language.
