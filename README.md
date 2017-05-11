@@ -62,7 +62,7 @@ const phonePortrait = breakpoints.phonePortrait.name;
 const phoneLandscape = breakpoints.phoneLandscape.name;
 
 const conditionalRender = () => {
-    return (name === phonePortrait || name === phoneLandscape)
+    return name === phonePortrait || name === phoneLandscape
     ?
         <AppMobile />
     :
