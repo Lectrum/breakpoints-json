@@ -47,9 +47,11 @@ This package is polymorphic. It can be used with native JS, any tool/library or 
 ```
     const current = window.innerWidth;
     const name = check(current).name;
+    const phonePortrait = breakpoints.phonePortrait.name;
+    const phoneLandscape = breakpoints.phoneLandscape.name;
 
     const conditionalRender = () => {
-        (name === breakpoints.phonePortrait.name || name === breakpoints.phoneLandscape.name)
+        (name === phonePortrait || name === phoneLandscape)
         ?
             <AppMobile />
         :
