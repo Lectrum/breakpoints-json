@@ -4,7 +4,7 @@
 [![npm](https://img.shields.io/npm/v/npm.svg?style=flat-square)](https://www.npmjs.com/package/breakpoints-json)
 [![Version](https://img.shields.io/badge/version-1.0.13-red.svg?style=flat-square)]()
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
-[![Building Pass](https://travis-ci.org/nmelnychenko/screenSizes.svg?branch=master)](https://travis-ci.org/nmelnychenko/screenSizes.svg?branch=master)
+[![Building Pass](https://img.shields.io/travis/rust-lang/rust.svg)]()
 [![Gitter Chat](https://img.shields.io/badge/chat-on%20gitter-blue.svg?style=flat-square)]()
 [![Twitter Follow](https://img.shields.io/twitter/follow/espadrine.svg?style=social&label=Follow)](https://twitter.com/lectrumhq)
 
