@@ -28,7 +28,7 @@ Here is simple example on native JavaScript. It is a function `check()`, which r
 const check = (size) => {
     let result = false;
 
-    for (const key in screenSizes) {
+    for (let key in screenSizes) {
         let item = screenSizes[key];
         let max = item.max;
         let min = item.min;
