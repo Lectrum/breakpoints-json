@@ -67,7 +67,7 @@ const conditionalRender = () => {
         <AppMobile />
     :
         <AppDesktop />;
-}
+};
 ```
 
 ## Contributing
