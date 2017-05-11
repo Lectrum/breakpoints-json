@@ -29,7 +29,7 @@ or if you don`t use ES6:
 
 `var breakpoints = require('breakpoints-json');`.
 
-If you use babel, imported JSON should automatic transformed to JavaScript object.
+If you use babel, JSON should be automatically transformed to JavaScript object after you will import it.
 
 Here is a simple example written in native JavaScript. It is a `check()` function, which returns a breakpoint (type Object) to you that corresponds to your current window size.
 
@@ -53,7 +53,7 @@ export default const check = (size) => {
 };
 ```
 
-This package is polymorphic. It can be used with native JS, any tool/library or any other programming language. It might be useful for building some logic according to different devices. You can easily make conditional rendered component (one component for mobile and another for desktop and tablet devices) in React.js as in the example below. We will use our `check()` function for this task:
+This package is polymorphic. It can be used with native JavaScript, any tool/library or any other programming language. It might be useful for building some logic according to different devices. You can easily make conditional rendered component (one component for mobile and another for desktop and tablet devices) in React.js as in the example below. We will use our `check()` function for this task:
 
 ```JSX
 import breakpoints from 'breakpoints-json';
