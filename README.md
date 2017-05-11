@@ -51,7 +51,7 @@ export default const check = (size) => {
 };
 ```
 
-This package is polymorphic. It can be used with native JS, any tool/library or any other programming language. It might be useful for building some logic according to different devices. For example, you can easy make conditional rendered component (one Component for mobile and another for Desktop and Tablet devices) in React.js as on example below. We will use our function check() for this task:
+This package is polymorphic. It can be used with native JS, any tool/library or any other programming language. It might be useful for building some logic according to different devices. For example, you can easily make conditional rendered component (one component for mobile and another for desktop and tablet devices) in React.js as in example below. We will use our `check()` function for this task:
 
 ```JSX
 import breakpoints from 'breakpoints-json';
