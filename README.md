@@ -42,7 +42,7 @@ export default const check = (size) => {
         const min = item.min;
 
         if (size <= max && size >= min) {
-        result = item;
+            result = item;
         }
     }
 
