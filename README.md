@@ -26,7 +26,6 @@ Here is simple example on native JavaScript. It is a function `check()`, which r
 
 ```
     const check = (size) => {
-
                 let result = false;
 
                 for (const key in screenSizes) {
