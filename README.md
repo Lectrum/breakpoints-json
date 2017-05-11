@@ -7,7 +7,7 @@
 [![Gitter Chat](https://img.shields.io/badge/chat-on%20gitter-blue.svg?style=flat)]()
 [![Twitter URL](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/lectrumhq)
 
-This is a lightweight package with most useful breakpoints in a universal JSON format. They correspond to the most popular modern devices (look on the picture below). They was carefully selected by Lectrum team for our projects during few years.
+This is a lightweight package with the most useful breakpoints in a universal JSON format. They correspond to popular modern devices (look on the picture below). They was carefully selected by Lectrum team for our projects during few years.
 
 ![breakpoints-json 3](https://cloud.githubusercontent.com/assets/26002528/25903209/71667874-35a4-11e7-84d3-e8c7e3259393.png)
 
