@@ -1,6 +1,7 @@
 # breakpoints-json
 
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
+[![Twitter Follow](https://img.shields.io/twitter/follow/espadrine.svg?style=social&label=Follow)](https://twitter.com/lectrumhq)
 
 There are presented most appropriate to modern devices breakpoints (look on the picture below). It is lightweight and have universal JSON format that make it useful in any projects with any programming language.
 
