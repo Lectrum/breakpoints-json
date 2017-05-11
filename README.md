@@ -7,7 +7,7 @@
 [![Gitter Chat](https://img.shields.io/badge/chat-on%20gitter-blue.svg?style=flat)]()
 [![Twitter URL](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/lectrumhq)
 
-*There are presented most appropriate to modern devices breakpoints (look on the picture below)*. It is lightweight and has a universal JSON format that makes it useful in any projects with any programming language.
+Here are presented all possible breakpoints corresponding to the most popular modern devices for today (look on the picture below), carefully selected by the Lectrum team. It is lightweight and has a universal JSON format.
 
 ![breakpoints-json 3](https://cloud.githubusercontent.com/assets/26002528/25903209/71667874-35a4-11e7-84d3-e8c7e3259393.png)
 
@@ -80,3 +80,5 @@ If you want to suggest an improvement to this package feel free to fork this rep
 `npm test`.
 
 Then send us PR. It is an excellent possibility to giving your karma little push, and you'll help us a lot.
+
+If this package is useful to you
