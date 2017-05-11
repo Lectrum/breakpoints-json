@@ -17,9 +17,11 @@ You can install `breakpoints-json` using npm:
 
 `npm install -D breakpoints-json`
 
+We use `-D` flags that is the same as `--save-dev`. In this case the package will appear in your devDependencies. It is a right way, because you only need to use it during local development.
+
 ## Usage
 
-To use this package you just need to import it from 'node_modules':
+To use this package you just need to import it from `node_modules`:
 
 `import breakpoints from 'breakpoints-json';`
 
