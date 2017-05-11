@@ -30,7 +30,7 @@ If you use babel, imported JSON should automatic transformed to JavaScript objec
 
 Here is simple example on native JavaScript. It is a function `check()`, which returned to you breakpoint (type Object) that corresponds to your current window size.
 
-```
+```javascript
 import breakpoints from 'breakpoints-json';
 
 export default const check = (size) => {
@@ -52,7 +52,7 @@ export default const check = (size) => {
 
 This package is polymorphic. It can be used with native JS, any tool/library or any other programming language. It might be useful for build some logic according to different devices. For example, you can easy make conditional rendered component (one Component for mobile and another for Desktop and Tablet devices) in React.js as on example below. We will use our function check() for this task:
 
-```
+```JSX
 import breakpoints from 'breakpoints-json';
 import check from './check.js';
 
