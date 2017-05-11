@@ -2,7 +2,7 @@
 
 [![Status Maintained](https://img.shields.io/badge/status-maintained-brightgreen.svg?style=flat-square)](https://github.com/Lectrum/breakpoints-json/pulse)
 [![npm](https://img.shields.io/npm/v/npm.svg?style=flat-square)](https://www.npmjs.com/package/breakpoints-json)
-[![Version](https://img.shields.io/badge/version-1.0.13-red.svg?style=flat-square)]()
+[![npm version](https://badge.fury.io/js/breakpoints-json.svg)](https://badge.fury.io/js/breakpoints-json)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 [![Building Pass](https://img.shields.io/travis/rust-lang/rust.svg)]()
 [![Gitter Chat](https://img.shields.io/badge/chat-on%20gitter-blue.svg?style=flat-square)]()
