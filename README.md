@@ -38,7 +38,7 @@ export default const check = (size) => {
     let result = false;
 
     for (let key in breakpoints) {
-        let item = breakpoints[key];
+        const item = breakpoints[key];
         const max = item.max;
         const min = item.min;
 
@@ -51,7 +51,7 @@ export default const check = (size) => {
 };
 ```
 
-This package is polymorphic. It can be used with native JS, any tool/library or any other programming language. It might be useful for building some logic according to different devices. For example, you can easily make conditional rendered component (one component for mobile and another for desktop and tablet devices) in React.js as in example below. We will use our `check()` function for this task:
+This package is polymorphic. It can be used with native JS, any tool/library or any other programming language. It might be useful for building some logic according to different devices. You can easily make conditional rendered component (one component for mobile and another for desktop and tablet devices) in React.js as in the example below. We will use our `check()` function for this task:
 
 ```JSX
 import breakpoints from 'breakpoints-json';
@@ -73,8 +73,8 @@ const conditionalRender = () => {
 
 ## Contributing
 
-If you want to suggest an improvement to our package feel free to fork this repo. To run tests execute the following in a terminal:
+If you want to suggest an improvement to this package feel free to fork this repo. To run tests execute the following in your terminal:
 
 `npm test`.
 
-And then send us PR. It is an excellent possibility to receive plus 100 to your karma, and you'll help us a lot.
+Then send us PR. It is an excellent possibility to giving your karma little push, and you'll help us a lot.
