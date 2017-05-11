@@ -7,21 +7,23 @@
 [![Gitter Chat](https://img.shields.io/badge/chat-on%20gitter-blue.svg?style=flat)]()
 [![Twitter URL](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/lectrumhq)
 
-There are presented most appropriate to modern devices breakpoints (look on the picture below). It is lightweight and have universal JSON format that make it useful in any projects with any programming language.
+*There are presented most appropriate to modern devices breakpoints (look on the picture below)*. It is lightweight and has a universal JSON format that makes it useful in any projects with any programming language.
 
 ![breakpoints-json 3](https://cloud.githubusercontent.com/assets/26002528/25903209/71667874-35a4-11e7-84d3-e8c7e3259393.png)
 
 ## Installation
 
+You can install `breakpoints-json` using npm:
+
 `npm install -D breakpoints-json`
 
 ## Usage
 
-For use this package you just need to import it from 'node_modules'.
+To use this package you just need to import it from 'node_modules':
 
 `import breakpoints from 'breakpoints-json';`
 
-or if you don`t use ES6
+or if you don`t use ES6:
 
 `var breakpoints = require('breakpoints-json');`
 
