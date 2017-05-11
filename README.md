@@ -1,5 +1,7 @@
 # breakpoints-json
 
+[![Join the chat at https://gitter.im/lectrum/breakpoints-json](https://badges.gitter.im/lectrum/breakpoints-json.svg)](https://gitter.im/lectrum/breakpoints-json?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 [![Status Maintained](https://img.shields.io/badge/status-maintained-brightgreen.svg?style=flat)](https://github.com/Lectrum/breakpoints-json/pulse)
 [![npm version](https://badge.fury.io/js/breakpoints-json.svg)](https://badge.fury.io/js/breakpoints-json)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/Lectrum/breakpoints-json/pulls)
