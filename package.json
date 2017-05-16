@@ -1,0 +1,28 @@
+{
+  "name": "breakpoints-json",
+  "version": "1.0.18",
+  "description": "Multipurpose, json-formated breakpoints",
+  "main": "index.json",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:Lectrum/breakpoints-json.git"
+  },
+  "keywords": [
+    "breakpoints",
+    "media",
+    "media-queries",
+    "screen",
+    "screen-sizes",
+    "viewport",
+    "json"
+  ],
+  "author": "ipasikun <i.pasikun@lectrum.io>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Lectrum/breakpoints-json/issues"
+  },
+  "homepage": "https://github.com/Lectrum/breakpoints-json/blob/master/README.md"
+}

@@ -1,0 +1,42 @@
+{
+    "phonePortrait": {
+        "name": "phonePortrait",
+        "min": "320",
+        "max": "414"
+    },
+    "phoneLandscape": {
+        "name": "phoneLandscape",
+        "min":  "415",
+        "max":  "667"
+    },
+    "tabletPortrait": {
+        "name": "tabletPortrait",
+        "min":  "668",
+        "max":  "768"
+    },
+    "tabletLandscape": {
+        "name": "tabletLandscape",
+        "min":  "769",
+        "max":  "1024"
+    },
+    "desktop": {
+        "name": "desktop",
+        "min":  "1025",
+        "max":  "1366"
+    },
+    "desktopWide": {
+        "name": "desktopWide",
+        "min":  "1367",
+        "max":  "1680"
+    },
+    "desktopHD": {
+        "name": "desktopHD",
+        "min":  "1681",
+        "max":  "1920"
+    },
+    "desktopMega": {
+        "name": "desktopMega",
+        "min":  "1921",
+        "max":  "2560"
+    }
+}
