@@ -18,11 +18,12 @@ This is a lightweight package with the most useful breakpoints in a universal JS
 
 You can install `breakpoints-json` using npm:
 
-`npm install -D breakpoints-json`
+`npm install breakpoints-json`
 
-We use `-D` flag which is the same as `--save-dev`. In this case, the package will appear in your devDependencies. It is a right way because you only need to use it during local development.
 
 ## Usage
+This package is polymorphic. It can be used with native JavaScript, any tool/library or any other programming language.
+
 
 For use this package you just need to import it from 'node_modules'.
 
@@ -34,12 +35,12 @@ or if you don`t use ES6:
 
 If you use babel, JSON should be automatically transformed to JavaScript object after you will import it.
 
-Here is a simple example written in native JavaScript. It is a `check()` function, which returns a breakpoint (type Object) to you that corresponds to your current window size.
+Here is a simple example - `check()` function, which returns a breakpoint (type Object) to you that corresponds to your current window size.
 
 ```javascript
 import breakpoints from 'breakpoints-json';
 
-export default const check = (size) => {
+const check = (size) => {
     let result = false;
 
     for (let key in breakpoints) {
@@ -54,26 +55,35 @@ export default const check = (size) => {
 
     return result;
 };
+
+export default check;
 ```
 
-This package is polymorphic. It can be used with native JavaScript, any tool/library or any other programming language. It might be useful for building some logic according to different devices. You can easily make conditional rendered component (one component for mobile and another for desktop and tablet devices) in React.js as in the example below. We will use our `check()` function for this task:
+It might be useful for building some logic according to different devices. You can easily make conditional rendered component (one component for mobile and another for desktop and tablet devices) in React.js as in the example below. We will use our `check()` function for this task:
 
 ```js
+import React, { Component } from 'react';
 import breakpoints from 'breakpoints-json';
 import check from './check.js';
 
-const current = window.innerWidth;
-const name = check(current).name;
-const phonePortrait = breakpoints.phonePortrait.name;
-const phoneLandscape = breakpoints.phoneLandscape.name;
+export default class App extends Component {
+    render () {
+        const current = window.innerWidth;
+        const name = check(current).name;
+        const phonePortrait = breakpoints.phonePortrait.name;
+        const phoneLandscape = breakpoints.phoneLandscape.name;
 
-const conditionalRender = () => {
-    return name === phonePortrait || name === phoneLandscape
-    ?
-        <AppMobile />
-    :
-        <AppDesktop />;
-};
+        const conditionalRender = () => {
+            return name === phonePortrait || name === phoneLandscape
+            ?
+                <AppMobile />
+            :
+                <AppDesktop />;
+        };
+
+        return conditionalRender;
+    }
+}
 ```
 
 We also created a React component in [smart-render](https://www.npmjs.com/package/smart-render) npm package that does this logic. This approach is better than writing `display: none;` in CSS. If you use this package, HTML element that should be not rendered — will not be in the DOM, in contrast to CSS `display: none;` rule (in this case HTML element will be presented in the DOM, but just not show).

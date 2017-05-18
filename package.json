@@ -12,14 +12,15 @@
   },
   "keywords": [
     "breakpoints",
+    "react",
+    "json",
     "media",
     "media-queries",
     "screen",
     "screen-sizes",
-    "viewport",
-    "json"
+    "viewport"
   ],
-  "author": "ipasikun <i.pasikun@lectrum.io>",
+  "author": "nmelnychenko <m.melnychenko@lectrum.io>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/Lectrum/breakpoints-json/issues"
