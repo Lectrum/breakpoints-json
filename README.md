@@ -18,7 +18,7 @@ This is a lightweight package with the most useful breakpoints in a universal JS
 
 You can install `breakpoints-json` using npm:
 
-`npm install breakpoints-json`
+`npm install --save breakpoints-json`
 
 
 ## Usage
