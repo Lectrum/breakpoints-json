@@ -20,6 +20,10 @@ You can install `breakpoints-json` using npm:
 
 `npm install --save breakpoints-json`
 
+or you can use yarn:
+
+`yarn add breakpoints-json`
+
 
 ## Usage
 This package is polymorphic. It can be used with native JavaScript, any tool/library or any other programming language.
@@ -33,9 +37,9 @@ or if you don`t use ES6:
 
 `var breakpoints = require('breakpoints-json');`.
 
-If you use babel, JSON should be automatically transformed to JavaScript object after you will import it.
+If you use babel, JSON should be automatically transformed to JavaScript object after you import it.
 
-Here is a simple example - `check()` function, which returns a breakpoint (type Object) to you that corresponds to your current window size.
+Here is a simple example - `check()` function which returns a breakpoint (type Object) to you that corresponds to your current window size.
 
 ```javascript
 import breakpoints from 'breakpoints-json';
